@@ -4,7 +4,7 @@ import { AddressInfo } from "net";
 import { LambdaHandler } from "ask-sdk-core/dist/skill/factory/BaseSkillFactory";
 import { RequestEnvelope } from "ask-sdk-model";
 
-import { handler as helloHandler } from "../lambda/custom";
+import { handler as helloHandler } from "../custom";
 
 function CreateHandler(handler: LambdaHandler): express.RequestHandler {
     return (req, res) => {
