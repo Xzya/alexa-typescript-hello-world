@@ -1,10 +1,10 @@
 {
   "watch": [
-    "src"
+    "lambda"
   ],
   "ext": "ts",
   "ignore": [
-    "src/**/*.spec.ts"
+    "lambda/**/*.spec.ts"
   ],
   "exec": "ts-node ./lambda/local/index.ts"
 }
